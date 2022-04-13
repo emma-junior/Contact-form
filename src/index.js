@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import AppProvider from "./context";
 import App from './App';
+// import FullContent from './FullContent';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
+      {/* <FullContent /> */}
       <App />
     </AppProvider>
   </React.StrictMode>,

@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url("https://images.unsplash.com/photo-1647175941406-5b89c16b3bb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80");
-  overflow-x: none;
+/* body {
+  background-color: #F6FAF9;
+  background-size: cover;
+} */
+ .scroll-bar::-webkit-scrollbar {
+  width: 8px;
 }
-#country-dropdown{
-  z-index: +10;
+.scroll-bar::-webkit-scrollbar:horizontal {
+  display: none;
+}
+ .scroll-bar::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+  
+ .scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #CBD5E1;
+  border-radius: 20px;
+  overflow-x: none;
+  /* border: 3px solid #666; */
 }
